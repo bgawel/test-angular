@@ -1,7 +1,7 @@
 test-angular
 ============
 
-Testing AngularJS application
+Testing AngularJS application with Jasmine, Karma and Protractor.
 
 Overview
 --------
