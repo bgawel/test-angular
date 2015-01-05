@@ -1,0 +1,32 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+  </ul>
+  <h3 class="text-muted">test angular</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>'Allo, 'Allo!</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Testing AngularJS application
+  </p>
+</div>
+
+<div class="row marketing">
+  Awesome things hardcoded in a controller:
+  <div ng-repeat = "thing in awesomeThings">
+    <h4>{{thing}}</h4>  
+  </div>
+</div>
+
+<div class="row marketing">
+  Github repos' names retrieved by using $http:
+  <div ng-repeat = "repo in repos">
+    <h4>{{repo.name}}</h4>  
+  </div>
+</div>
+
+<div class="footer">
+  <p>♥ from DaDa Soft Lab</p>
+</div>
